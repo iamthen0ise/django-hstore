@@ -4,7 +4,7 @@ from decimal import Decimal
 from datetime import date, time, datetime
 
 from django.core.exceptions import ObjectDoesNotExist
-from django.utils import six
+import six
 
 
 def acquire_reference(reference):

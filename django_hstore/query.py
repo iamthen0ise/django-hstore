@@ -9,7 +9,7 @@ from django.db.models.sql.datastructures import EmptyResultSet
 from django.db.models.sql.query import Query
 from django.db.models.sql.subqueries import UpdateQuery
 from django.db.models.sql.where import WhereNode
-from django.utils import six
+import six
 
 from django_hstore.apps import GEODJANGO_INSTALLED
 from django_hstore.utils import get_cast_for_param, get_value_annotations

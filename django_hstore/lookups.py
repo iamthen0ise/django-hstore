@@ -1,6 +1,6 @@
 from __future__ import unicode_literals, absolute_import
 
-from django.utils import six
+import six
 from django.db.models.lookups import (
     GreaterThan,
     GreaterThanOrEqual,

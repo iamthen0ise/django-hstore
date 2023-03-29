@@ -1,9 +1,9 @@
 from __future__ import unicode_literals, absolute_import
 
 import json
+import six
 
 from django.forms import Field
-from django.utils import six
 from django.utils.translation import ugettext
 from django.core.exceptions import ValidationError
 

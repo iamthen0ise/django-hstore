@@ -2,10 +2,10 @@ from __future__ import absolute_import, unicode_literals
 
 import datetime
 import json
+import six
 
 import django
 from django.db import models
-from django.utils import six
 from django.utils.translation import ugettext_lazy as _
 
 from . import forms, utils

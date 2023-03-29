@@ -1,8 +1,8 @@
 import json
+import six
 
 from decimal import Decimal
 
-from django.utils import six
 from django.utils.encoding import force_text, force_str
 
 from .compat import UnicodeMixin

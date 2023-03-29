@@ -1,5 +1,5 @@
 from django.db import models
-from django.utils import six
+import six
 from django.utils.functional import curry
 from django import VERSION as DJANGO_VERSION
 
