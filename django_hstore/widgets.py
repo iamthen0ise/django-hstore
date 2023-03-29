@@ -3,7 +3,7 @@ from __future__ import absolute_import, unicode_literals
 import django
 from django import forms
 from django.conf import settings
-from django.contrib.admin.templatetags.admin_static import static
+from django.contrib.admin import static
 from django.contrib.admin.widgets import AdminTextareaWidget
 from django.template import Context
 from django.template.loader import get_template
