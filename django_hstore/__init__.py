@@ -3,7 +3,7 @@ __version__ = VERSION
 
 
 def get_version():
-    return ".".join(VERSION)
+    return ".".join([str(v) for v in VERSION])
 
 
 default_app_config = 'django_hstore.apps.HStoreConfig'
